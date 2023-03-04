@@ -60,11 +60,13 @@ function background1(){
 function background2(){
     document.getElementById("back").style.backgroundImage="url('Img/palm-trees-wind-windy-weather.jpg')";
     document.getElementById("back").style.backgroundSize="cover";
+document.getElementById("back").style.backgroundAttachment="fixed";
     document.getElementById("back").style.backgroundRepeat="no-repeat"
 }
 function background3(){
     document.getElementById("back").style.backgroundImage="url('Img/heaven-gb69fbbcd3_1920.jpg')";
     document.getElementById("back").style.backgroundSize="cover";
+document.getElementById("back").style.backgroundAttachment="fixed";
     document.getElementById("back").style.backgroundRepeat="no-repeat"
 }
 
