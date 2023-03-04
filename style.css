@@ -1,0 +1,402 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+
+} 
+#bi-x{
+    display: none;
+}
+#bi-list{
+    display: none;
+}
+.navbar{
+    margin: 0px 0px;
+}
+.nav-con {
+    display: flex;
+}
+.nav-con h3 {
+    margin: 8px 10px;
+    font-size: 21px;
+    font-family: 'Libre Baskerville', serif;
+    color: #edc06c;
+}
+.nav-con ul {
+    display: flex;
+    margin: 0px 55px;
+}
+.nav-con li {
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 13px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+}
+.nav-con li:hover{
+    color: #edc06c;
+    background-color: white;
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 23px;
+    text-align: center;
+    font-size: 16px;
+}
+.search-bar {
+    width: max-content;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.search-bar input {
+    margin-top: -3px;
+    width: 170px;
+    height: 33px;
+    border: 1px solid blue;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+}
+#search {
+    border-radius: 7px;
+    width: 76px;
+    height: 26px;
+    font-size: 15px;
+    border: 1px solid #d76161;
+    background: aliceblue;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+}
+.place{
+    margin: 40px auto;
+    width: max-content;
+    font-family: 'Libre Baskerville', serif;
+    color: #edc06c;
+}
+.weather-con {
+    width: 63%;
+    height: 206px;
+    margin: 41px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.underweather-con {
+    width: 32%;
+    height: 232px;
+    border: 2px solid rgb(233 222 222);
+    border-radius: 5px;
+}
+.heading{
+    border: 1px solid rgb(233 222 222);
+    height: 40px;
+    background-color: rgb(247, 240, 240);
+    text-align: center;
+}
+.heading h3{
+margin-top: 5px;
+font-family: 'Libre Baskerville', serif;
+}
+.value{
+ text-align: center;
+ margin-top: 10px;
+}
+.value h2{
+    font-family: 'Libre Baskerville', serif;
+    color: #edc06c;
+}
+.value p{
+margin-top: 10px;
+font-family: 'Libre Baskerville', serif;
+color: #edc06c;
+}
+.unvalue{
+    margin-top: 22px;
+}
+#photo{
+    width: 100px;
+    height: 50px;
+    display: none;
+}
+span{
+    color: #ffe993;
+}
+@media (max-width:1094px){
+    
+    .weather-con {
+        width: 96%;
+        height: 206px;
+        margin: 41px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .underweather-con {
+        width: 32%;
+        height: 230px;
+        border: 2px solid rgb(233 222 222);
+        border-radius: 5px;
+    }
+#bi-x{
+display: none;
+}
+#bi-list{
+
+}
+}
+@media (max-width:816px){
+   
+    .nav-con {
+        background-color: black;
+        width: 277px;
+        height: 712px;
+        position: absolute;
+        top: 0px;
+        left: -300px;
+        transition: 0.5s;
+    }
+    .nav-con ul {
+        margin: 39px -144px;
+        display: inline-block;
+        
+    }
+    #bi-x{
+
+    }
+    #bi-list{
+    
+    }
+        .nav-con li {
+            list-style: none;
+            margin: 64px 20px;
+            font-family: 'Libre Baskerville', serif;
+            color: white;
+            font-size: 20px;
+            padding: 5px;
+        
+    }
+.active{
+    left: 0px;
+}
+    #bi-list{
+        width: 40px;
+        height: 40px;
+        color: white;
+        display: block;
+        
+    }
+    #bi-x {
+        color: white;
+        margin-left: 135px;
+        display: block;
+        width: 40px;
+        height: 37px;
+        margin-top: 10px;
+    }
+    .underweather-con {
+        width: 32%;
+        height: 234px;
+        border: 2px solid rgb(233 222 222);
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:690px){
+    .nav-con {
+    background-color: black;
+    width: 663px;
+    height: 1800px;
+    position: absolute;
+    top: 0px;
+    left: -663px;
+    transition: 0.5s;
+}
+.active{
+    left: 0px;
+}
+.nav-con h3 {
+    margin: 34px 10px;
+    font-size: 67px;
+    font-family: 'Libre Baskerville', serif;
+    color: #edc06c;
+}
+.nav-con ul {
+    margin: 189px -144px;
+    display: inline-block;
+}
+.nav-con li {
+    list-style: none;
+    width: max-content;
+    margin: 146px 20px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 40px;
+    padding: 7px;
+}
+#bi-list {
+    width: 150px;
+    height: 172px;
+    color: white;
+    display: block;
+}
+#bi-x {
+    color: white;
+    margin-left: 135px;
+    display: block;
+    width: 111px;
+    height: 71px;
+    margin-top: 1px;
+}
+    .place {
+    margin: 144px 257px;
+    width: max-content;
+    font-family: 'Libre Baskerville', serif;
+    color: #edc06c;
+    font-size: 70px;
+}
+    .search-bar input {
+        margin-top: -3px;
+        width: 468px;
+        height: 69px;
+        border: 1px solid blue;
+        border-radius: 12px;
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        color: black;
+        font-size: 40px;
+    }
+    #search {
+        border-radius: 7px;
+        width: 178px;
+        height: 64px;
+        font-size: 39px;
+        border: 1px solid #d76161;
+        background: aliceblue;
+        font-family: 'Libre Baskerville', serif;
+        color: black;
+    }
+    .search-bar {
+        width: max-content;
+        position: absolute;
+        right: -633px;
+        z-index: -1;
+        top: 23px;
+    }
+    .first-head{
+        width: 500px;
+        margin: 75px auto;
+        text-align: center;
+    }
+   .weather-con {
+    width: 1270px;
+    height: 206px;
+    margin: 66px 40px;
+    display: block;
+}
+.underweather-con {
+    width: 97%;
+    height: 732px;
+    border: 2px solid rgb(233 222 222);
+    border-radius: 5px;
+    margin: 59px 0px;
+}
+.heading {
+    border: 1px solid rgb(233 222 222);
+    height: 120px;
+    background-color: rgb(247, 240, 240);
+    text-align: center;
+}
+.heading h3 {
+    margin-top: 5px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 85px;
+}
+.value h2 {
+    font-family: 'Libre Baskerville', serif;
+    color: #edc06c;
+    font-size: 118px;
+}
+.value p {
+    margin-top: 48px;
+    font-family: 'Libre Baskerville', serif;
+    color: #edc06c;
+    font-size: 56px;
+}
+.nav-con h3 {
+    margin: 34px 10px;
+    font-size: 52px;
+    width: 540px;
+    font-family: 'Libre Baskerville', serif;
+    color: #edc06c;
+}
+
+}
+@media (max-width:500px){
+  .nav-con {
+    background-color: black;
+    width: 911px;
+    height: 2800px;
+    position: absolute;
+    top: 0px;
+    left: -920px;
+    transition: 0.5s;
+}
+.active{
+    left: 0px;
+}
+.nav-con h3 {
+    margin: 35px 25px;
+    font-size: 78px;
+    width: 540px;
+    font-family: 'Libre Baskerville', serif;
+    color: #edc06c;
+}
+.nav-con ul {
+    margin: 189px -325px;
+    display: inline-block;
+}
+#bi-x {
+    color: white;
+    margin-left: 412px;
+    display: block;
+    width: 148px;
+    height: 114px;
+    margin-top: 10px;
+}
+.nav-con li {
+    list-style: none;
+    width: max-content;
+    margin: 159px 20px;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 43px;
+    padding: 9px;
+}
+.search-bar input {
+    margin-top: -3px;
+    width: 555px;
+    height: 108px;
+    border: 1px solid blue;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    font-size: 52px;
+}
+#search {
+    border-radius: 27px;
+    width: 212px;
+    height: 104px;
+    font-size: 39px;
+    border: 1px solid #d76161;
+    background: aliceblue;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+}
+}
+
