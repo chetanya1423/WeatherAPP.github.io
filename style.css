@@ -128,7 +128,10 @@ span{
     color: #ffe993;
 }
 @media (max-width:1094px){
-    
+    *{
+    margin: 0;
+    padding: 0;
+}
     .weather-con {
         width: 96%;
         height: 206px;
@@ -151,6 +154,10 @@ display: none;
 }
 @media (max-width:816px){
    
+  *{
+    margin: 0;
+    padding: 0;
+}
     .nav-con {
         background-color: black;
         width: 277px;
@@ -207,6 +214,10 @@ display: none;
 }
 
 @media (max-width:690px){
+  *{
+    margin: 0;
+    padding: 0;
+}
     .nav-con {
     background-color: black;
     width: 663px;
@@ -337,6 +348,10 @@ display: none;
 
 }
 @media (max-width:500px){
+  *{
+    margin: 0;
+    padding: 0;
+}
   .nav-con {
     background-color: black;
     width: 911px;
